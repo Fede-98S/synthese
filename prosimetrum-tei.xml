@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><!-- Title --></title>
+<respStmt>
+<resp><!-- Edited by --></resp>
+<name><!-- Name --></name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<distributor><!-- Distributor name  --></distributor>
+</publicationStmt>
+<sourceDesc>
+<listWit>
+<witness xml:id="A">
+<abbr type="siglum">1669</abbr>
+Édition 1669, BNF, Arsenal, GD-7890
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="B">
+<abbr type="siglum">1672</abbr>
+Édition 1672, Nîmes, 8344-27-02
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+</teiHeader>
+<text>
+<front>
+<castList>
+<castItem>
+<role xml:id="gorgibus">GORGIBUS</role>
+<roleDesc>Père de Climene</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="climene">CLIMENE</role>
+<roleDesc>Fille de Gorgibus</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="cleandre">CLEANDRE</role>
+<roleDesc>Amoureux de Climene</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="pancrace">PANCRACE</role>
+<roleDesc>Docteur extravagant</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="crispin">CRISPIN</role>
+<roleDesc>Valet de Cleandre</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="catin">CATIN</role>
+<roleDesc>Servante de Gorgibus</roleDesc>
+</castItem>
+</castList>
+<set></set>
+</front>
+<body>
+<p><ekdscene>head=SCÈNE X., n=10, type=scene</ekdscene></p><p><speech><loc>cleandre</loc> De la part du Roy des Gripposts,\\ Dont le palais est sur des <app><lem wit="#A">feuilles</lem><rdg wit="#B">feüilles</rdg></app>,\\ Monsieur le Comte <app><lem wit="#A">Rocqufœilles</lem><rdg wit="#B">Rocqufœüilles</rdg></app>,\\ Vient icy pour faire la Cour,\\ Et mesme pour parler d'amour<app><lem wit="#A">,</lem><rdg wit="#B">.</rdg></app>\\ A vostre fille.\\ <loc>gorgibus</loc> Ah<app><lem wit="#A">!</lem><rdg wit="#B"/></app> que de peine,\\&gt; Mais...\\ <loc>cleandre</loc> Pour vostre fille Climene,\\ Qu'elle se mette de son mieux,\\ Afin qu'il se <app><lem wit="#A">prenne</lem><rdg wit="#B">prene</rdg></app> des yeux<app><lem wit="#A">,</lem><rdg wit="#B"/></app>\\ Car c'est un homme dans la France<app><lem wit="#A">,</lem><rdg wit="#B"/></app>\\ Qui sans doute est de consequence,\\ Car il parle fort bien François<app><lem wit="#A">.</lem><rdg wit="#B"/></app>\\ <loc>gorgibus</loc> <app><lem wit="#A">Est </lem><rdg wit="#B">Est-</rdg></app>il loin.\\ <loc>cleandre</loc> Non dedans ce bois,\\ Il <app><lem wit="#A">vient</lem><rdg wit="#B">viens</rdg></app> dessus sa hacquenée.\\ <loc>pancrace</loc> Comme <app><lem wit="#A">fist</lem><rdg wit="#B">fi</rdg></app> <app><lem wit="#A">autrefois</lem><rdg wit="#B">a autrefois</rdg></app> Phinée,\\ Quand il fut <app><lem wit="#A">apres</lem><rdg wit="#B">aupres</rdg></app> le dragon.\\ <loc>cleandre</loc> C’estoit Persée.\\ <loc>pancrace</loc> Ah! tout de bon<app><lem wit="#A">,</lem><rdg wit="#B"/></app>\\ Je n'y songeois pas<app><lem wit="#A">,</lem><rdg wit="#B"/></app> je vous jures<app><lem wit="#A">.</lem><rdg wit="#B"/></app>\\ <loc>climene</loc> Ce Comte m'est de bonne augure<app><lem wit="#A">,</lem><rdg wit="#B"/></app>\\ J'ayme les gens de qualité,\\ Voyez en quelle dignité<app><lem wit="#A">,</lem><rdg wit="#B"/></app>\\ S'il m'espouse ou vous m'aurés mise.\\ <loc>cleandre</loc> Sa Lettre <app><lem wit="#A">esticy</lem><rdg wit="#B">est icy</rdg></app><app><lem wit="#A">.</lem><rdg wit="#B"/></app>\\ <loc>climene</loc> Que je lise,\\ <app><lem wit="#A">Aqui</lem><rdg wit="#B">A qui</rdg></app> s'<app><lem wit="#A">adresse </lem><rdg wit="#B">adresse-</rdg></app>elle<app><lem wit="#A">,</lem><rdg wit="#B"/></app>\\ <loc>cleandre</loc> A vous,\\ <app><lem wit="#A">Liséz</lem><rdg wit="#B">Lisez</rdg></app> elle est de vostre espoux<app><lem wit="#A">.</lem><rdg wit="#B"/></app>\\</p><p>LETTRE</p><p>Adorable Climene<app><lem wit="#A">.</lem><rdg wit="#B"/></app> Depuis que vous m'avez pris dans vos liens<app><lem wit="#A">,</lem><rdg wit="#B"/></app> je me sens à peine, je m'imagine <app><lem wit="#A">à</lem><rdg wit="#B">a</rdg></app> tous <app><lem wit="#A">moments</lem><rdg wit="#B">momens</rdg></app> estre aupres de vous<app><lem wit="#A">,</lem><rdg wit="#B"/></app> quoy que souvent j'en sois fort esloigné<app><lem wit="#A">,</lem><rdg wit="#B">.</rdg></app> L'amour me <app><lem wit="#A">suggere</lem><rdg wit="#B">suggère</rdg></app> mille detours pour vous voir, mais comme ma <app><lem wit="#A">qualité</lem><rdg wit="#B">qualitè</rdg></app> me deffent d'al- ler sans suitte<app><lem wit="#A">,</lem><rdg wit="#B"/></app> je suis obligé de dire ou je <app><lem wit="#A">vais</lem><rdg wit="#B">vois</rdg></app><app><lem wit="#A">,</lem><rdg wit="#B"/></app> \& je vous <app><lem wit="#A">advouë</lem><rdg wit="#B">advoué</rdg></app><app><lem wit="#A">,</lem><rdg wit="#B"/></app> que cela me met dans le der- nier desespoir. On m'a dit que vous aviez eu quelque inclination<app><lem wit="#A">,</lem><rdg wit="#B"/></app> pour un certain jeune homme<app><lem wit="#A">,</lem><rdg wit="#B"/></app> que l'on nomme Cleandre<app><lem wit="#A">,</lem><rdg wit="#B"/></app> \& que vostre Pere l'avoit refusé<app><lem wit="#A">,</lem><rdg wit="#B"/></app> par ce qu'il n'estoit pas fort bien dans ses affaires<app><lem wit="#A">,</lem><rdg wit="#B"/></app> \& qu'il n'avoit point de bien<app><lem wit="#A">;</lem><rdg wit="#B">:</rdg></app> mais je vous diray<app><lem wit="#A">,</lem><rdg wit="#B"/></app> pour faire voir qu'un homme comme moy ne craint point de ri- vaux de <app><lem wit="#A">sa</lem><rdg wit="#B">la</rdg></app> basse vollée, que son Pere est mort<app><lem wit="#A">,</lem><rdg wit="#B"/></app> \& qu'il luy à laisse deux <app><lem wit="#A">cens</lem><rdg wit="#B">cents</rdg></app> mille escus de bien<app><lem wit="#A">,</lem><rdg wit="#B"/></app> qu'il <app><lem wit="#A">à touché</lem><rdg wit="#B">a touche</rdg></app> depuis peu<app><lem wit="#A">;</lem><rdg wit="#B"/></app> mais comme on ayme tousjours les gens de <app><lem wit="#A">qualité</lem><rdg wit="#B">qualite</rdg></app> \& qu'on les regarde dans son cœur d'un œuil amoureux \& frippon<app><lem wit="#A">,</lem><rdg wit="#B"/></app> devant que de les avoir veus<app><lem wit="#A">,</lem><rdg wit="#B"/></app> je crois que le Comte de Rocqufœuilles estant <app><lem wit="#A">de ce</lem><rdg wit="#B">du</rdg></app> nom- bre<app><lem wit="#A">,</lem><rdg wit="#B"/></app> vous ferez tout pour luy<app><lem wit="#A">;</lem><rdg wit="#B"/></app> c'est pourquoy je pars d'icy pour vous aller trouver moy mesme<app><lem wit="#A">,</lem><rdg wit="#B"/></app> ou je seray dans un moment. Mon premier Escuier est le porteur de ma lettre<app><lem wit="#A">,</lem><rdg wit="#B"/></app> \& je vous prie comme il m'est parent<app><lem wit="#A">,</lem><rdg wit="#B"/></app> de luy donner un baiser pour l'amour de moy, \& <app><lem wit="#A">assurez</lem><rdg wit="#B">assures</rdg></app> vous <app><lem wit="#A">dés</lem><rdg wit="#B">des</rdg></app> le moment que je vous verray, que je vous le ren- dray <app><lem wit="#A">un</lem><rdg wit="#B">au</rdg></app> double<app><lem wit="#A">.</lem><rdg wit="#B"/></app> C'est vostre mari futur qui vous escrit<app><lem wit="#A">.</lem><rdg wit="#B"/></app> Le Comte de Rocqufœuille<app><lem wit="#A">.</lem><rdg wit="#B"/></app></p><p>Le Comte de Rocqufœuille.</p><p><loc>gorgibus</loc> Cette lettre est fort bien escripte,\\ Il faut faire ce qu’elle dicte.\\ Baisez donc Monsieur l’Escuier,\\ Elle se veut faire prier<app><lem wit="#A">,</lem><rdg wit="#B">.</rdg></app>\\ Baisez la seulement.\\ <loc>climene</loc> Mon Pere<app><lem wit="#A">,</lem><rdg wit="#B"/></app>\\ <loc>gorgibus</loc> Ouy ma fille il est necessaire,\\ Baisez, la bon c'est fort bien <app><lem wit="#A">fait</lem><rdg wit="#B">ait</rdg></app><app><lem wit="#A">.</lem><rdg wit="#B"/></app>\\ <loc>pancrace</loc> Adieu, Messieurs<app><lem wit="#A">,</lem><rdg wit="#B"/></app> mon tour est fait,\\ Je n'ayme plus cette Climene,\\ On me la voit <app><lem wit="#A">quitter</lem><rdg wit="#B">quiter</rdg></app> sans peine,\\ Je la pers sans aucun espoir,\\ C'est pourquoy je m'<app><lem wit="#A">anvays</lem><rdg wit="#B">enuays</rdg></app><app><lem wit="#A">,</lem><rdg wit="#B"/></app> bonsoir.\\ <loc>climene</loc> Adieu Docteur<app><lem wit="#A">.</lem><rdg wit="#B"/></app>\\ <loc>catin</loc> Je rens dons grace<app><lem wit="#A">,</lem><rdg wit="#B">;</rdg></app>\\ A vostre vilainne grimace<app><lem wit="#A">.</lem><rdg wit="#B"/></app>\\ <loc>pancrace</loc> <app><lem wit="#A">Puissiés</lem><rdg wit="#B">Puissies</rdg></app> vous gouster un lien,\\ Plus doux que le Pancrassien.\\ <loc>gorgibus</loc> Vostre valet.\\ <loc>catin</loc> Le grand dommage,\\ De chasser ce trouble <app><lem wit="#A">menage</lem><rdg wit="#B">ménage</rdg></app>.\\ <loc>gorgibus</loc> Mais qui nous <app><lem wit="#A">interrompt</lem><rdg wit="#B">interomp</rdg></app> si fort.\\ <loc>catin</loc> C’est le Comte...\\ <loc>gorgibus</loc> Qui.\\</speech></p>
+</body>
+</text>
+</TEI>

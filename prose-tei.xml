@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><!-- Title --></title>
+<respStmt>
+<resp><!-- Edited by --></resp>
+<name><!-- Name --></name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<distributor><!-- Distributor name  --></distributor>
+</publicationStmt>
+<sourceDesc>
+<listWit>
+<witness xml:id="A">
+<abbr type="siglum">A</abbr>
+<emph>BnF</emph> RES-YF-3207
+<msDesc>
+<msIdentifier>
+<settlement>Paris</settlement>
+<institution>Bibliothéque Nationale de France</institution>
+<idno>RES-YF-3207</idno>
+</msIdentifier>
+<history>
+<origin>
+<origDate>1669</origDate>
+</origin>
+</history>
+</msDesc>
+</witness>
+<witness xml:id="B">
+<abbr type="siglum">B</abbr>
+<emph>BnF</emph> RES8ERVE RF-4597
+<msDesc>
+<msIdentifier>
+<settlement>Paris</settlement>
+<institution>Bibliothéque Nationale de France</institution>
+<idno>RESERVE 8-RF-4597</idno>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="C">
+<abbr type="siglum">C</abbr>
+<emph>BnF</emph> RESERVE 8-RF-4596
+<msDesc>
+<msIdentifier>
+<settlement>Paris</settlement>
+<institution>Bibliothéque Nationale de France</institution>
+<idno>RESERVE 8-RF-4596</idno>
+</msIdentifier>
+<history>
+<origin>
+<origDate>1669</origDate>
+</origin>
+</history>
+</msDesc>
+</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+</teiHeader>
+<text>
+<front>
+<castList>
+<castItem>
+<role xml:id="julie">JULIE</role>
+<roleDesc>fille d'Oronte</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="eraste">ERASTE</role>
+<roleDesc>amant de Julie</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="nerine">NÉRINE</role>
+<roleDesc>femme d'intrigue</roleDesc>
+</castItem>
+</castList>
+<set></set>
+</front>
+<body>
+<p><ekdscene>head=SCÈNE I., n=1, type=scene</ekdscene> <speech><loc>julie</loc> Mon Dieu ! Eraste, gardons d'être surpris ; je tremble qu'on ne nous voie ensemble, et tout serait <app><lem wit="#A">perdu</lem><rdg wit="#C">perdue</rdg></app>, après la défense que l'on m'a faite. <loc>eraste</loc> Je regarde de tous côtés, et je n'aperçois rien. <loc>julie</loc> Aie aussi l'oeil au guet, Nérine, et prends bien garde qu'il ne vienne personne. <loc>nerine</loc> Reposez-vous sur moi, et dites hardiment ce que vous avez à vous dire. <loc>julie</loc> Avez-vous imaginé pour notre affaire quelque chose de favorable ? Et croyez-vous, Eraste, pouvoir venir à bout de détourner ce fâcheux mariage que mon père s'est mis en tête ? <loc>eraste</loc> Au moins y travaillons-nous fortement ; et déjà nous avons préparé un bon nombre de batteries pour renverser ce dessein ridicule. <loc>nerine</loc> Par ma foi ! Voilà votre père. <loc>julie</loc> Ah ! Séparons-nous vite. <loc>nerine</loc> Non, non, non, ne bougez : je m'étais trompée. <loc>julie</loc> Mon Dieu ! Nérine, que tu es sotte de nous donner de ces frayeurs ! <loc>eraste</loc> Oui, belle Julie, nous avons dressé pour cela quantités de machines, et nous ne feignons point de mettre tout en usage, sur la permission que vous m'avez donnée. Ne nous demandez point tous les ressorts que nous ferons jouer : vous en aurez le divertissement ; et, comme aux comédies, il est bon de vous laisser le plaisir de la surprise, et de ne vous avertir point de tout ce qu'on vous fera voir. C'est assez de vous dire que nous avons en main divers stratagèmes tous prêts à produire dans l'occasion, et que l'ingénieuse Nérine et l'adroit Sbrigani entreprennent l'affaire. <loc>nerine</loc> Assurément. Votre père se moque-t-il de vouloir vous anger de son avocat de Limoges, Monsieur de Pourceaugnac, qu'il n'a vu de sa vie, et qui vient par le coche vous enlever à notre barbe ? Faut-il que trois ou quatre mille écus de plus, sur la parole de votre oncle, lui fassent rejeter un amant qui vous agrée ? Et une personne comme vous est-elle faite pour un Limousin ?</p><p>S'il a envie de se marier, que ne prend-il une Limosine et ne laisse-t-il en repos les chrétiens ? Le seul nom de Monsieur de Pourceaugnac m'a mis dans une colère effroyable. J'enrage de Monsieur de Pourceaugnac. Quand il n'y aurait que ce nom-là, Monsieur de Pourceaugnac, j'y brûlerai mes livres, ou je romprai ce mariage, et vous ne serez point Madame de Pourceaugnac. Pourceaugnac ! Cela se peut-il souffrir ? Non, Pourceaugnac est une chose que je ne saurais supporter ; et nous lui jouerons tant de pièces, nous lui ferons tant de niches sur niches ; que nous renverrons à Limoges Monsieur de Pourceaugnac. <loc>eraste</loc> Voici notre subtil Napolitain, qui nous dira des nouvelles.</speech></p>
+</body>
+</text>
+</TEI>

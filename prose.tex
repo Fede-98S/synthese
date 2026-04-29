@@ -1,0 +1,131 @@
+\documentclass[12pt]{article}
+\usepackage[speech=prose, teiexport=tidy]{ekddrama}
+
+\SetLineation{
+    modulo
+}
+
+\title{MONSIEUR DE POURCEAUGNAC}
+\author{Molière}
+\date{1665}
+%% https://theatre-classique.fr/pages/pdf/MOLIERE_MONSIEURPOURCEAUGNAC.pdf %%
+
+\DeclareWitness{A}{A}{\emph{BnF} RES-YF-3207}[
+               settlement=Paris,
+               idno=RES-YF-3207,
+               institution=Bibliothéque Nationale de France,
+               origDate=1669]
+\DeclareWitness{B}{B}{\emph{BnF} RES8ERVE RF-4597}[
+               settlement=Paris,
+               idno=RESERVE 8-RF-4597,
+               institution=Bibliothéque Nationale de France]
+\DeclareWitness{C}{C}{\emph{BnF} RESERVE 8-RF-4596}[
+               settlement=Paris,
+               idno=RESERVE 8-RF-4596,
+               institution=Bibliothéque Nationale de France,
+               origDate=1669]
+\DeclareShorthand{a}{α}{A,B,C}
+
+
+% Define speakers
+\DeclareCast{julie}{JULIE}{fille d'Oronte}
+\DeclareCast{eraste}{ERASTE}{amant de Julie}
+\DeclareCast{nerine}{NÉRINE}{femme d'intrigue}
+
+\begin{document}
+
+
+\begin{xltabular}[c]{0.75\linewidth}{lXl}
+  \caption*{\textbf{Conspectus Siglorum}\label{tab:conspectus-siglorum}}\\
+  \SigLine{A}\\
+  \SigLine{B}\\
+  \SigLine{C}\\
+\end{xltabular}
+
+\newpage
+
+\begin{xltabular}{0.75\linewidth}{l X l}
+  \caption*{\textbf{Cast List}\label{tab:cast-list}}\\
+  \hline
+  \textbf{Personnages} & \textbf{Description} & \textbf{Acteur} \\
+  \hline
+  \CastTableBody
+  \hline
+\end{xltabular}
+
+
+\newpage
+
+\begin{ekddrama}
+\ekdscene{head=SCÈNE I., n=1, type=scene}
+\begin{speech}
+%Julie, Eraste, Nérine.
+\loc{julie}
+Mon Dieu ! Eraste, gardons d'être surpris ; je tremble
+qu'on ne nous voie ensemble, et tout serait \app{\lem[wit=A]{perdu}\rdg[wit=C]{perdue}}, après la
+défense que l'on m'a faite.
+\loc{eraste}
+Je regarde de tous côtés, et je n'aperçois rien.
+\loc{julie}
+Aie aussi l'oeil au guet, Nérine, et prends bien garde qu'il
+ne vienne personne.
+\loc{nerine}
+Reposez-vous sur moi, et dites hardiment ce que vous
+avez à vous dire.
+\loc{julie}
+Avez-vous imaginé pour notre affaire quelque chose de
+favorable ? Et croyez-vous, Eraste, pouvoir venir à bout
+de détourner ce fâcheux mariage que mon père s'est mis
+en tête ?
+\loc{eraste}
+Au moins y travaillons-nous fortement ; et déjà nous
+avons préparé un bon nombre de batteries pour renverser
+ce dessein ridicule.
+\loc{nerine}
+Par ma foi ! Voilà votre père.
+\loc{julie}
+Ah ! Séparons-nous vite.
+\loc{nerine}
+Non, non, non, ne bougez : je m'étais trompée.
+\loc{julie}
+Mon Dieu ! Nérine, que tu es sotte de nous donner de ces
+frayeurs !
+\loc{eraste}
+Oui, belle Julie, nous avons dressé pour cela quantités de
+machines, et nous ne feignons point de mettre tout en
+usage, sur la permission que vous m'avez donnée. Ne
+nous demandez point tous les ressorts que nous ferons
+jouer : vous en aurez le divertissement ; et, comme aux
+comédies, il est bon de vous laisser le plaisir de la
+surprise, et de ne vous avertir point de tout ce qu'on vous
+fera voir. C'est assez de vous dire que nous avons en
+main divers stratagèmes tous prêts à produire dans
+l'occasion, et que l'ingénieuse Nérine et l'adroit Sbrigani
+entreprennent l'affaire.
+\loc{nerine}
+Assurément. Votre père se moque-t-il de vouloir vous
+anger de son avocat de Limoges, Monsieur de
+Pourceaugnac, qu'il n'a vu de sa vie, et qui vient par le
+coche vous enlever à notre barbe ? Faut-il que trois ou
+quatre mille écus de plus, sur la parole de votre oncle, lui
+fassent rejeter un amant qui vous agrée ? Et une personne
+comme vous est-elle faite pour un Limousin ? 
+
+S'il a envie de se marier, que ne prend-il une Limosine et ne
+laisse-t-il en repos les chrétiens ? Le seul nom de
+Monsieur de Pourceaugnac m'a mis dans une colère
+effroyable. J'enrage de Monsieur de Pourceaugnac.
+Quand il n'y aurait que ce nom-là, Monsieur de
+Pourceaugnac, j'y brûlerai mes livres, ou je romprai ce
+mariage, et vous ne serez point Madame de
+Pourceaugnac. Pourceaugnac ! Cela se peut-il souffrir ?
+Non, Pourceaugnac est une chose que je ne saurais
+supporter ; et nous lui jouerons tant de pièces, nous lui
+ferons tant de niches sur niches ; que nous renverrons à
+Limoges Monsieur de Pourceaugnac.
+\loc{eraste}
+Voici notre subtil Napolitain, qui nous dira des nouvelles.
+\end{speech}
+
+\end{ekddrama}
+\end{document}

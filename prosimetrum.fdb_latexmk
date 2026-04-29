@@ -1,0 +1,26 @@
+# Fdb version 4
+["pdflatex"] 1777416014.86245 "/home/federico/Bureau/synthese/prosimetrum.tex" "prosimetrum.pdf" "prosimetrum" 1777416015.27553 2
+  "/etc/texmf/web2c/texmf.cnf" 1743675013.30757 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/federico/Bureau/synthese/prosimetrum.tex" 1777416014.11305 8145 a34ab1933fd7f4d29658798f173b739c ""
+  "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty" 1644112042 7237 bdd120a32c8fdb4b433cf9ca2e7cd98a ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1705352648 20144 147463a6a579f4597269ef9565205cfe ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1705352648 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1704491087 30006 57b07afb710ee2f649c65cfbafda39c1 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty" 1705955748 6565 cfd9fd0a1d5f5ad985151778771ff7a9 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/ltablex/ltablex.sty" 1407968373 6021 43ef4b327cd0a38df15482bafd67d6df ""
+  "/usr/share/texlive/texmf-dist/tex/latex/ragged2e/ragged2e.sty" 1687466457 10085 3dececaeed388e31285c366e124c0c4e ""
+  "/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty" 1698869629 12667 e4b5eb11e4b7239e6c8a52bbe074a6c6 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty" 1698955022 12935 94a3291359b5f73ff1b19345a6983105 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty" 1698869629 7147 d45559f8a31b8c53ada0640516660003 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/xltabular/xltabular.sty" 1604525786 3623 13474540f7d9568bf6269d154cad18d4 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1757975611 8213913 a125a686eb65ae060da9a0e1934666a5 ""
+  "ekddrama.sty" 1764126085.71497 77806 09352c95b4425e2febda08956038ac9f ""
+  "prosimetrum.aux" 1777416014.86177 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "prosimetrum.tex" 1777416014.11305 8145 a34ab1933fd7f4d29658798f173b739c ""
+  (generated)
+  "prosimetrum.aux"
+  "prosimetrum.log"
+  "prosimetrum.pdf"
+  (rewritten before read)

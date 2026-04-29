@@ -1,0 +1,87 @@
+\documentclass[12pt]{article}
+\usepackage[divs=ekddrama, speech=verse, teiexport=tidy]{ekddrama}
+
+\SetLineation{
+    modulo,
+    vmodulo
+}
+
+\SetEditorialStyle{%
+  origreg=orig,%
+  abbrexpan=expan%
+}
+
+\DeclareWitness{A}{A}{\emph{BnF} RES-YF-3207}[
+               settlement=Paris,
+               idno=RES-YF-3207,
+               institution=Bibliothéque Nationale de France,
+               origDate=1669]
+\DeclareWitness{B}{B}{\emph{BnF} RES8ERVE RF-4597}[
+               settlement=Paris,
+               idno=RESERVE 8-RF-4597,
+               institution=Bibliothéque Nationale de France]
+\DeclareWitness{C}{C}{\emph{BnF} RESERVE 8-RF-4596}[
+               settlement=Paris,
+               idno=RESERVE 8-RF-4596,
+               institution=Bibliothéque Nationale de France,
+               origDate=1669]
+\DeclareShorthand{a}{α}{A,B,C}
+
+\DeclareCast{dandin}{Dandin}{Juge}
+\DeclareCast{leandre}{Leandre}{Fils de Dandin}
+\DeclareCast{chicanneau}{Chicanneau}{Bourgeois}[John Smith]
+\DeclareCast{isabelle}{Isabelle}{Fille de Chicanneau}[]
+\DeclareCast{comptesse}{La Comtesse}{}[Jane Doe]
+\DeclareCast{jean}{Petit Jean}{Portier}[]
+\DeclareCast{intime}{L'Intime}{Secretaire}[]
+\DeclareCast{souffleur}{Le Souffleur}{}[]
+
+\begin{document}
+
+
+\begin{xltabular}[c]{0.75\linewidth}{lXl}
+  \caption*{\textbf{Conspectus Siglorum}\label{tab:conspectus-siglorum}}\\
+  \SigLine{A}\\
+  \SigLine{B}\\
+  \SigLine{C}\\
+\end{xltabular}
+
+\newpage
+
+\begin{xltabular}{0.75\linewidth}{l X l}
+  \caption*{\textbf{Cast List}\label{tab:cast-list}}\\
+  \hline
+  \textbf{Personnages} & \textbf{Description} & \textbf{Acteur} \\
+  \hline
+  \CastTableBody
+  \hline
+\end{xltabular}
+
+\set{La scène est dans une ville de Basse Normandie.}
+
+\begin{ekddrama}
+\ekdact{head=ACTE I, n=1, type=act}
+\ekdscene{head=SCÈNE PREMIÈRE, n=1, type=scene}
+%\stage{jean}
+\begin{speech}
+\loc{jean}[traisant un gros sac de Procez]
+Ma foy, sur l'avenir, bien fou qui se fiera.\\
+Tel qui rit Vendredy, Dimache pleurera.\\
+Un Juge, l'an passé, me prit \app{\lem[wit=A]{à}\rdg[wit=B]{a}} son service,\\
+Il m'avoit fait venir\\>
+\phantom{Il m'avoit fait}d'Amiens pour estre Suisse.\\
+Tous ces Normans vouloient se diverrir de nous,\\
+On apprend a hurler, dit l'autre, avec les Loups.\\
+ETC\\
+\loc{isabelle}
+Lorem Ipsum is simply dummy text of the \\
+printing and typesetting industry.\\
+Lorem Ipsum has been the industry's standard dummy text\\
+ever since the '500, when an unknown printer\\
+took a galley of type and scrambled it\\
+to make a type specimen book.\\
+\end{speech}
+
+
+\end{ekddrama}
+\end{document}

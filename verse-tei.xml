@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><!-- Title --></title>
+<respStmt>
+<resp><!-- Edited by --></resp>
+<name><!-- Name --></name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<distributor><!-- Distributor name  --></distributor>
+</publicationStmt>
+<sourceDesc>
+<listWit>
+<witness xml:id="A">
+<abbr type="siglum">A</abbr>
+<emph>BnF</emph> RES-YF-3207
+<msDesc>
+<msIdentifier>
+<settlement>Paris</settlement>
+<institution>Bibliothéque Nationale de France</institution>
+<idno>RES-YF-3207</idno>
+</msIdentifier>
+<history>
+<origin>
+<origDate>1669</origDate>
+</origin>
+</history>
+</msDesc>
+</witness>
+<witness xml:id="B">
+<abbr type="siglum">B</abbr>
+<emph>BnF</emph> RES8ERVE RF-4597
+<msDesc>
+<msIdentifier>
+<settlement>Paris</settlement>
+<institution>Bibliothéque Nationale de France</institution>
+<idno>RESERVE 8-RF-4597</idno>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="C">
+<abbr type="siglum">C</abbr>
+<emph>BnF</emph> RESERVE 8-RF-4596
+<msDesc>
+<msIdentifier>
+<settlement>Paris</settlement>
+<institution>Bibliothéque Nationale de France</institution>
+<idno>RESERVE 8-RF-4596</idno>
+</msIdentifier>
+<history>
+<origin>
+<origDate>1669</origDate>
+</origin>
+</history>
+</msDesc>
+</witness>
+</listWit>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+</teiHeader>
+<text>
+<front>
+<castList>
+<castItem>
+<role xml:id="dandin">Dandin</role>
+<roleDesc>Juge</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="leandre">Leandre</role>
+<roleDesc>Fils de Dandin</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="chicanneau">Chicanneau</role>
+<roleDesc>Bourgeois</roleDesc>
+<actor>John Smith</actor>
+</castItem>
+<castItem>
+<role xml:id="isabelle">Isabelle</role>
+<roleDesc>Fille de Chicanneau</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="comptesse">La Comtesse</role>
+<actor>Jane Doe</actor>
+</castItem>
+<castItem>
+<role xml:id="jean">Petit Jean</role>
+<roleDesc>Portier</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="intime">L'Intime</role>
+<roleDesc>Secretaire</roleDesc>
+</castItem>
+<castItem>
+<role xml:id="souffleur">Le Souffleur</role>
+</castItem>
+</castList>
+<set></set>
+</front>
+<body>
+<p><ekdact>head=ACTE I, n=1, type=act</ekdact> <ekdscene>head=SCÈNE PREMIÈRE, n=1, type=scene</ekdscene> <speech><loc>jean</loc>[traisant un gros sac de Procez] Ma foy, sur l'avenir, bien fou qui se fiera.\\ Tel qui rit Vendredy, Dimache pleurera.\\ Un Juge, l'an passé, me prit <app><lem wit="#A">à</lem><rdg wit="#B">a</rdg></app> son service,\\ Il m'avoit fait venir\\&gt; <phantom>Il m'avoit fait</phantom>d'Amiens pour estre Suisse.\\ Tous ces Normans vouloient se diverrir de nous,\\ On apprend a hurler, dit l'autre, avec les Loups.\\ ETC\\ <loc>isabelle</loc> Lorem Ipsum is simply dummy text of the \\ printing and typesetting industry.\\ Lorem Ipsum has been the industry's standard dummy text\\ ever since the '500, when an unknown printer\\ took a galley of type and scrambled it\\ to make a type specimen book.\\</speech></p>
+</body>
+</text>
+</TEI>
